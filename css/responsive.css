@@ -1,0 +1,152 @@
+/* =================================================
+
+Template Name:  Magnificent - Personal Responsive Bootstrap Template
+Author: Christian Owusu Yaw
+Version: 1.0
+Design and Developed by: OwusuTheme
+
+NB: This is the responsive stylesheet of this theme.
+
+=================================================== */
+
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+}
+
+/*Tablet Layout */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* Navbar */
+  nav.navbar .navbar-brand {
+    font-weight: 900;
+    font-size: 25px;
+    font-family: sans-serif;
+    letter-spacing: 0;
+  }
+
+  .navbar .nav-item a {
+    margin-right: 0px;
+    padding: 20px 0;
+  }
+
+  /*---- Home ----*/
+  section#about .row p.end {
+    margin-bottom: 0 !important;
+  }
+  section#about .row .col-md-6 button {
+    margin-top: 20px !important;
+  }
+  .white-popup {
+    padding: 10px;
+    max-width: 90%;
+  }
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+  nav.navbar .navbar-brand {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 26px;
+    font-family: sans-serif;
+    letter-spacing: 0;
+  }
+  .welcome-text h2 {
+    font-size: 2em;
+  }
+  .welcome-text h1.ah-headline {
+    font-size: 30px;
+  }
+  .welcome-text h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .white-popup {
+    padding: 10px;
+    max-width: 95%;
+  }
+  .por-text h2 {
+    margin-top: 25px;
+    font-size: 18px;
+  }
+
+  .por-text-details p {
+    font-size: 12px;
+  }
+  .hidden-xs {
+    display: none;
+  }
+  /*--- About Section ---*/
+  section#about .row h2 {
+    text-align: center;
+    font-size: 30px;
+  }
+  section#about .row h3.heading {
+    text-align: center;
+  }
+  section#about .row p.end {
+    text-align: center;
+  }
+  section#about .row .col-md-6 button {
+    margin-top: 0px !important;
+  }
+
+  /* -- Portfolio Section --*/
+  .white-popup {
+    padding: 18px;
+    max-width: 95%;
+  }
+
+  .por-text h2 {
+    margin-top: 25px;
+    font-size: 18px;
+  }
+
+  .por-text-details p {
+    font-size: 12px;
+  }
+}
+
+/* Wide Mobile Layout 480px */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  /*navbar */
+  nav.navbar .navbar-brand {
+    font-weight: 800;
+    font-size: 26px;
+    font-family: sans-serif;
+    letter-spacing: 0;
+  }
+
+  /*--- About Section ---*/
+  section#about .row h2 {
+    text-align: center;
+  }
+  section#about .row h3.heading {
+    text-align: center;
+  }
+  section#about .row p.end {
+    text-align: center;
+  }
+  section#about .row .col-md-6 button {
+    margin-top: 0px !important;
+  }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 767px) {
+}
+
+@media only screen and (min-width: 375px) and (max-width: 767px) {
+}
+
+@media only screen and (min-width: 411px) and (max-width: 767px) {
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  .welcome-text h1.ah-headline {
+    font-size: 40px;
+  }
+
+  .welcome-text h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+}
